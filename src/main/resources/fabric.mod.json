@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "coin_loot",
+	"version": "${version}",
+	"name": "Coin Loot",
+	"description": "This mod makes the Useless Coin's coins obtainable",
+	"authors": [
+		"Sniffiandros"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/SniffVillage/Useless-coins"
+	},
+	"license": "ARR",
+	"icon": "assets/coin_loot/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nl.sniffiandros.coin_loot.CoinLoot"
+		]
+	},
+	"mixins": [
+		"coin_loot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

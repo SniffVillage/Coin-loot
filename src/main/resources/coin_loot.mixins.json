@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "nl.sniffiandros.coin_loot.mixin",
+	"compatibilityLevel": "JAVA_17",
+
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
