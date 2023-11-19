@@ -24,7 +24,7 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modApi include("maven.modrinth:useless-coins:${project.useless_coins_version}")
+	modImplementation "maven.modrinth:useless-coins:${project.useless_coins_version}"
 
 }
 
